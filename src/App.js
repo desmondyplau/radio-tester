@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import RadioItem from "./components/radioItem";
+import RadioForm from "./components/radioForm";
+import questions from "./components/questions";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  state = {
+    questions: questions.questions,
+    radio: [],
+  };
+
+  render() {
+    //console.log("from app", this.state.questions);
+    return (
+      <main className="container">
+        <RadioForm questions={this.state.questions} />
+      </main>
+    );
+  }
 }
 
 export default App;
