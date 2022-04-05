@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.073c9b0a.css",
-    "main.js": "/react-gh-pages/static/js/main.10a68a45.js",
-    "static/js/787.53bdc71a.chunk.js": "/react-gh-pages/static/js/787.53bdc71a.chunk.js",
-    "static/media/logo.svg": "/react-gh-pages/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/react-gh-pages/index.html",
-    "main.073c9b0a.css.map": "/react-gh-pages/static/css/main.073c9b0a.css.map",
-    "main.10a68a45.js.map": "/react-gh-pages/static/js/main.10a68a45.js.map",
-    "787.53bdc71a.chunk.js.map": "/react-gh-pages/static/js/787.53bdc71a.chunk.js.map"
+    "main.css": "/radio-tester/static/css/main.073c9b0a.css",
+    "main.js": "/radio-tester/static/js/main.5c8ebeb2.js",
+    "static/js/787.53bdc71a.chunk.js": "/radio-tester/static/js/787.53bdc71a.chunk.js",
+    "static/media/logo.svg": "/radio-tester/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/radio-tester/index.html",
+    "main.073c9b0a.css.map": "/radio-tester/static/css/main.073c9b0a.css.map",
+    "main.5c8ebeb2.js.map": "/radio-tester/static/js/main.5c8ebeb2.js.map",
+    "787.53bdc71a.chunk.js.map": "/radio-tester/static/js/787.53bdc71a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.10a68a45.js"
+    "static/js/main.5c8ebeb2.js"
   ]
 }
